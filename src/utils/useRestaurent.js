@@ -12,7 +12,7 @@ export const useRestaurent=(resId)=> {
        const data =  await fetch("https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=18.972009&lng=73.0348229&restaurantId="+resId);
        const jsonData = await data.json();
 
-       console.log(jsonData);
+     //  console.log(jsonData);
        setRes(jsonData);
 
     }   

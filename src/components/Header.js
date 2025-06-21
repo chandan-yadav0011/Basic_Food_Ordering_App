@@ -33,7 +33,7 @@ export const Header =()=>{
 
     const cartItems = useSelector((store)=>store.cart.items);
 
-    console.log(cartItems);
+   
     
     return (
         <div className="flex justify-between bg-[#d43684] font-normal text-lg  text-white shadow-2xl  md:bg-[#d43684] sm:bg-blue-400">

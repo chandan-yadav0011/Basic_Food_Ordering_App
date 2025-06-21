@@ -108,7 +108,7 @@ const Body= ()=>{
                 
                  (filteredRestuarents.length===0)?(<h3>No results found.</h3>):
                 filteredRestuarents.map((restuarent,index)=>{
-                    console.log(restuarent)
+                 
                     return <Link to={"/restuarent/"+ restuarent?.info?.id} key={index}><RestroCard {...restuarent.info}/></Link>
                 })
             }
